@@ -1,0 +1,2 @@
+# neuralnettest
+Following Kaparthy, I implemented a version of a basic neural network. This uses backpropogation to train neural networks incrementally. Given target values and initial values, we can interatively tweak our weights and understand how we tweak each weight using back propogation, which tells us how each neuron will affect the loss function. We do this iteratively to minimize the loss function. We minimize the MSE by tweaking neurons in each layer until we achieve the desired result.
